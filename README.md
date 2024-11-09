@@ -22,41 +22,28 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## Description
+## Personal Blogging Platform API
+### Difficulty: 
+Easy
+### Skills and technologies used:
+CRUD for main operations, databases (Postgresql), server-side RESTful API.
+<img src="https://assets.roadmap.sh/guest/blogging-platform-api.png"  alt="Blogging"/>
+Let’s start with a very common one when it comes to backend projects.
+This is a RESTful API that would power a personal blog. This implies that you’d have to create a backend API with the following responsibilities:
+* Return a list of articles. You can add filters such as publishing date, or tags.
+* Return a single article, specified by the ID of the article.
+* Create a new article to be published.
+* Delete a single article, specified by the ID.
+* Update a single article, again, you’d specify the article using its ID.
+
+And with those endpoints you’ve covered the basic CRUD operations (Create, Read, Update and Delete).
+
+
+
+
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-## Installation
-
-```bash
-$ yarn install
-```
-
-## Running the app
-
-```bash
-# development
-$ yarn run start
-
-# watch mode
-$ yarn run start:dev
-
-# production mode
-$ yarn run start:prod
-```
-
-## Test
-
-```bash
-# unit tests
-$ yarn run test
-
-# e2e tests
-$ yarn run test:e2e
-
-# test coverage
-$ yarn run test:cov
-```
 
 ## Support
 
